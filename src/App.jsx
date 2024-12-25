@@ -66,26 +66,26 @@ const Portfolio = () => {
   
 
   const socialLinks = {
-    github: "https://github.com/gazijarin",
-    linkedin: "https://www.linkedin.com/in/guna-sekhar-vintha",
+    github: "https://github.com/vinthagunasekhar",
+    linkedin: "https://www.linkedin.com/in/gunasekharvintha/",
     leetcode: "https://leetcode.com/u/vinthagunasekhar/",
-    email: "mailto:vinthag@mcmaster.ca"
+    email: "mailto:gunasekharvintha@icloud.com"
   };
 
   const tabs = ["ABOUT", "EXPERIENCE", "PROJECTS"];
 
   const experiences = [
     {
-      title: "Automation Developer",
+      title: "Software Developer",
       company: "Royal Bank of Canada (RBC)",
       date: "Sep. 2024 - Present",
       points: [
-        "'The Intern' position focusing on automation developer."
+        ""
       ]
     },
     {
       title: "Software Engineer",
-      company: "Price Waterhouse Coopers AC",
+      company: "Price Waterhouse Coopers AC (PwC)",
       date: "2021 - 2023",
       points: [
         "Spearheaded a Security ITAC SOX controls team and conducted security data analysis using Alteryx and Tableau on HANA DB, resulting in an 85% reduction in testing hours.",
@@ -97,10 +97,10 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: "Watched Media Tracker",
-      description: "A comprehensive media consumption tracking platform.",
-      tech: ["Ruby", "Rails", "Selenium", "REST API"],
-      github: "https://github.com/yourusername/media-tracker",
+      title: "Spendify",
+      description: "A comprehensive credit card management platform.",
+      tech: ["FastAPI", "postgresDB", "React", "GCP"],
+      github: "https://github.com/vinthagunasekhar/spendify",
     },
     {
       title: "Music Merlin Classifier",
@@ -132,7 +132,7 @@ const Portfolio = () => {
           <div className="flex items-center space-x-4">
           <div className="flex items-center space-x-2">
             <MapPin className="w-4 h-4" />
-            <span className="text-sm">Canada</span>
+            <span className="text-sm">Toronto,Canada</span>
           </div>
           <span className="text-sm text-gray-400">|</span>
           <span className="text-sm">{currentTime} ET</span>
@@ -228,18 +228,18 @@ const Portfolio = () => {
             <p className="text-gray-400 leading-relaxed">
               Hello! I'm Guna, a software engineer from Toronto, Canada. Passionate about creating technology to elevate people's lives.
               <br /><br /> 
-              I specialize in building (and occasionally designing) build, test and deploy models as well as software code.
+              I specialize in building (and occasionally designing), testing and deploying models as well as software code.
               <br /><br />
-              Outside of work, I'm interested in following the developments of Fintech. I watch a lot of movies and Shows.
+              Outside of work, I'm interested in following the developments of AI,Fintech. I watch a lot of Movies and Shows.
             </p>
             <p className="text-gray-400 leading-relaxed">
               Here are a few tech stack I've been working with recently:
             </p>
             <ul className="grid grid-cols-2 gap-2 text-sm">
-              {['Python', 'Java', 'Flask', 'Azure', 'Machine Learning', 'Gen AI', 'MongoDB','API'].map((tech) => (
+              {['Python, Java', 'FastAPI', 'SpringBoot', 'AWS, Azure, GCP', 'Machine Learning', 'Gen AI', 'SQL, NoSQL','Playwright, TestNG, Jenkins'].map((tech) => (
                 <li key={tech} className="flex items-center space-x-2">
                   <ArrowRight className="w-4 h-4 text-blue-500" />
-                  <span>{tech}</span>
+                  <span>{tech}</span> 
                 </li>
               ))}
             </ul>
